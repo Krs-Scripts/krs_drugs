@@ -17,7 +17,7 @@ Karos.webhookDateFormat = "%d/%m/%Y" -- https://www.lua.org/pil/22.1.html
 
 Karos.webhookTimeFormat = "%H:%M" -- https://www.lua.org/pil/22.1.html
 
-Karos.webhookImageUrl = 'https://cdn.discordapp.com/attachments/1132248003093221467/1210409323415609404/logo.png?ex=65fce987&is=65ea7487&hm=bafc0c4b868ee49e88ec11178e060bd5acf0cbe184c1f3063a9b00e09925b24a&' -- Webhook Image Url
+Karos.webhookImageUrl = '' -- Webhook Image Url
 
 Karos.raccolta = {
     {
