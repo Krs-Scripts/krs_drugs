@@ -1,11 +1,11 @@
 
 Karos = {}
 
-Karos.webhookRaccolta = 'https://discord.com/api/webhooks/1216485824686719147/bo98G6GHrbFBJKBkacpx-eL98xeGI7jpkrdbGc-QiD5bMoTEpDANzAXADbMToxNU-l96' -- Webhook Raccolta
+Karos.webhookRaccolta = '' -- Webhook Raccolta
 
-Karos.webhookProcesso = 'https://discord.com/api/webhooks/1216485824686719147/bo98G6GHrbFBJKBkacpx-eL98xeGI7jpkrdbGc-QiD5bMoTEpDANzAXADbMToxNU-l96' -- Webhook Processo
+Karos.webhookProcesso = '' -- Webhook Processo
 
-Karos.webhookVendita = 'https://discord.com/api/webhooks/1216485824686719147/bo98G6GHrbFBJKBkacpx-eL98xeGI7jpkrdbGc-QiD5bMoTEpDANzAXADbMToxNU-l96' -- Webhook Vendita
+Karos.webhookVendita = '' -- Webhook Vendita
 
 Karos.webhookTitle = 'Krs Log' -- Scrivi il nome del bot desiderato
 
