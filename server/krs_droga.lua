@@ -15,13 +15,13 @@ end)
 RegisterNetEvent('krs_droga:processo', function()
     local krs = ESX.GetPlayerFromId(source)
     local processo = ox:Search(source, 'count', cannabis)
-    if processo > 0 then
+    if processo >= 3 then  
         ox:AddItem(source, weed, 1)
         ox:RemoveItem(source, cannabis, 3)
         krs.showNotification("Hai processato la cannabis")
         TriggerEvent('krs:discordLog', source, 'processo') 
     else
-        krs.showNotification("Per processare ti serviranno [3] piantine di cannabis.")
+        krs.showNotification("Per processare la weed ti serviranno almeno [3] piantine di cannabis.")
     end
 end)
 
