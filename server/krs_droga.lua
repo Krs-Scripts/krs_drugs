@@ -41,17 +41,19 @@ end)
 RegisterNetEvent("krs_droga:vendita", function(item, number)
     local krs = ESX.GetPlayerFromId(source)
     local vendita = ox:Search(source, 'count', item)
- 
+    
     local percentuale = Karos.money["random"] * number
 
-    if vendita >= 1 then
-        print("Richiesta di vendita:", item, number or 1)
-        ox:RemoveItem(source, item, number or 1)
+    if vendita >= number and number > 0 then 
+        print("Richiesta di vendita:", item, number)
+        ox:RemoveItem(source, item, number)
         ox:AddItem(source, "money", percentuale)
         krs.showNotification("Hai venduto la weed")
         TriggerEvent('krs:discordLog', source, "vendita") 
+    elseif vendita < number then
+        krs.showNotification("Non possiedi abbastanza weed da vendere")
     else
-        krs.showNotification("Non possiedi la weed da vendere")
+        krs.showNotification("Quantità non valida")
     end
 end)
 
