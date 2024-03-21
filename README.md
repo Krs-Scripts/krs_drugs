@@ -10,4 +10,5 @@
 
 🔗・**Youtube** : https://www.youtube.com/watch?v=L2bpr1o-J1w
 
-![krs_drugs](https://github.com/Krs-Scripts/krs_drugs/assets/131356071/f00a3e7b-e49f-4645-8bda-75f5a5827ceb)
+
+![krs_drugs](https://github.com/Krs-Scripts/krs_drugs/assets/131356071/aa24c3f3-d43a-4117-8420-a9c50d4a95ca)
