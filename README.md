@@ -1,4 +1,6 @@
 
+<img width="1920" height="1080" alt="DRUGS SYSTEM" src="https://github.com/user-attachments/assets/1b763bac-4179-4be2-8ff3-9cff960b6f52" />
+
 # KRS Drugs
 
 Simple drugs system for **Qbox + ox_inventory + ox_target + ox_lib**
